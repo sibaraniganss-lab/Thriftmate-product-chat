@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/product_detail_page.dart';
+import 'pages/notifications_page.dart';
 
 void main() => runApp(const MyApp());
 
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
       ),
-      home: const ProductDetailPage(),
+      home: const NotificationsPage(),
     );
   }
 }
